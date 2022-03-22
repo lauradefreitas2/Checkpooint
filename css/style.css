@@ -53,27 +53,48 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom:10px;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin:10px;
+position: absolute;
+width: 335px;
+height: 534px;
+left: 23px;
+top: 722px;
+
+background: #C4C4C4;
+border-radius: 31px
+}
+.card2{
+position: absolute;
+width: 335px;
+height: 534px;
+left: 423px;
+top: 722px;
+
+background: #C4C4C4;
+border-radius: 31px
+}
+.card3{
+    position: absolute;
+width: 335px;
+height: 534px;
+left: 823px;
+top: 722px;
+
+background: #C4C4C4;
+border-radius: 31px
 }
 .praiadaconcha {
-    max-width: 100%;;
+  max-width: 95%;;
     margin:5px;
 }
 .ruadapituba{
-    max-width: 100%;;
+    max-width: 95%;;
     margin:5px;
 
 }
 .cachoeiras {
-    max-width: 100%;;
+    max-width: 95%;
     margin:5px;
 }
 .titulo {
@@ -81,25 +102,37 @@
 }
 .descrição {
     height:  80%;
-    width: 90%;
+    width: 100%;
     padding: 15px;
-    margin:5px;
+    height: 190px;;
+    
+}
+.botão{
+position: absolute;
+width: 145.34px;
+height: 54.76px;
+left: 90px;
+top: 460.39px;
+
+background: #C4C4C4;
 }
 .h2-video{
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
+    position: absolute;
+    width: 92px;
+    height: -45px;
+    left: 600px;
+    top: 1396px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
     }
 .section-video{
     padding:5px;
     }
 .video{
-    align-items: center;
-    left:50%;
-    width: 60%;
-    margin-top: 10% ;
-    margin-left: 20%; 
+    margin-left:30%;
+    width: 40%;
+    margin-top: 65%;
 }
 .section-footer {
     display: flex;
@@ -119,12 +152,60 @@
     align-content: center;
     justify-content:center;
 }
-@media (max-width: 780px){
-    .nav{
-        background-color: aqua;
-        width: 100%;
+@media (max-width: 851px){
+
+    .sectioncuriosidades{
+        flex-direction: row;
+        gap: 30px;
     }
+
     .card{
-        width: 100%;
+position: absolute;
+width: 335px;
+height: 534px;
+left: 23px;
+top: 686px;
+
+background: #C4C4C4;
+border-radius: 31px;
     }
+    .card2{
+position: absolute;
+width: 335px;
+height: 534px;
+left: 23px;
+top: 1230px;
+
+background: #C4C4C4;
+border-radius: 31px;
+    }
+    .card3{
+        position: absolute;
+        width: 335px;
+        height: 534px;
+        left: 23px;
+        top: 1775px;
+        
+        background: #C4C4C4;
+        border-radius: 31px;
+    }
+
+    .h2-video {
+        position: absolute;
+        width: 92px;
+        height: 0px;
+        left: 150px;
+        top: 2400px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        }
+    .video{
+    margin-left:30%;
+    width: 40%;
+    margin-top: 480%;
+}
+    .section-video {
+        padding:5px;
+        }
 }
